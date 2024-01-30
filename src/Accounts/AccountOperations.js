@@ -50,7 +50,7 @@ const AccountOperations = () => {
     return (
         <>
             <div className='create-container'>
-                <h1>Create new customer</h1>
+                <h1>Create New Customer</h1>
                 <div>
                     <lable>Customer full name  </lable>
                     <input type='text' value={fullName} onChange={(e) => setFullName(e.target.value)}></input>
