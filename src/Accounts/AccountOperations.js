@@ -43,7 +43,7 @@ const AccountOperations = () => {
         setPayShow(true)
     }
     const handlePayloan = () => {
-        alert("Conform Pay Loan")
+        alert("Are you sure, you want to pay loan??")
         dispatch(payLoan())
         setPayShow(false)
     }

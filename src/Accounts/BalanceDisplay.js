@@ -2,7 +2,10 @@
 import { connect } from 'react-redux'
 
 function BalanceDisplay({balance}) {
-  return  <div style={{paddingLeft:"30px",fontSize:"25px"}}> {balance} </div>  
+  return  <>
+  <h2>Account Balance : {balance}</h2>
+  {/* <p style={{paddingLeft:"30px",fontSize:"25px"}}> {balance} </p>  */}
+  </> 
 }
 const amountShow=(state)=>{
   return{
